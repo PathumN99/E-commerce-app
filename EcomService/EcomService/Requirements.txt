@@ -1,0 +1,10 @@
+ORM
+
+1. Entity Framework
+	Dependencies --> Manage NuGet Packages --> Browse --> Microsoft.EntityFrameworkCore.SqlServer --> install
+
+2. To create DB tables and make changes to the DB
+	Dependencies --> Manage NuGet Packages --> Browse --> Microsoft.EntityFrameworkCore.Tools --> install
+
+Creating a bridge between Entity framework code and the DB
+	Create a DbContext class [ Models --> create folder as (Data) --> AppDbContext.cs ]
